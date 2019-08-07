@@ -281,6 +281,9 @@ Blockly.Msg.SENSING_USERID = 'user id';
 
 // Sensors
 Blockly.Msg.SENSORS_GETDATA = 'data from No. %1 %2';
+Blockly.Msg.SENSORS_GETDATA_CAMERA = 'Camera';
+Blockly.Msg.SENSORS_GETDATA_INFRARED = 'Infrared sensor';
+Blockly.Msg.SENSORS_GETDATA_BATTERY = 'Battery';
 
 // Category labels
 Blockly.Msg.CATEGORY_MOTION = 'Motion';

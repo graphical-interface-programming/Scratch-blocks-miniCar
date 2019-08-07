@@ -16596,7 +16596,10 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "BROADCAST_MODAL_TITLE": "新消息",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
   // 新添加的sensors
-    "SENSORS_GETDATA": "来自 %1 号 %2 传感器的数据"
+    "SENSORS_GETDATA": "来自 %1 号 %2 传感器的数据",
+    "SENSORS_GETDATA_CAMERA": "摄像头",
+    "SENSORS_GETDATA_INFRARED": "红外传感器",
+    "SENSORS_GETDATA_BATTERY": "电池"
 };
 /*
 

@@ -154,5 +154,11 @@
     "NEW_BROADCAST_MESSAGE": "New message",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
     "BROADCAST_MODAL_TITLE": "New Message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+
+    "Blockly.Msg.SENSORS_GETDATA": "data from No. %1 %2",
+    "Blockly.Msg.SENSORS_GETDATA_CAMERA": "Camera",
+
+    "Blockly.Msg.SENSORS_GETDATA_INFRARED": "Infrared sensor",
+    "Blockly.Msg.SENSORS_GETDATA_BATTERY": "Battery"
 }
