@@ -82,6 +82,12 @@ Blockly.Colours = {
     "secondary": "#FF4D6A",
     "tertiary": "#FF3355"
   },
+  // 添加了sensor块的颜色
+  "sensors": {
+    "primary": "#48d1cc",
+    "secondary": "#20b29a",
+    "tertiary": "#4682b4"
+  },
   "text": "#575E75",
   "workspace": "#F9F9F9",
   "toolboxHover": "#4C97FF",

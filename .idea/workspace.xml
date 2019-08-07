@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31275499-91da-4fa5-ab9f-bc5d40ef3131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blocks_vertical/default_toolbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/blocks_vertical/default_toolbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks_vertical/vertical_extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/blocks_vertical/vertical_extensions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg/js/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/msg/js/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/msg/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg/scratch_msgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/msg/scratch_msgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/colours.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/colours.js" afterDir="false" />
     </list>
     <ignored path="E:\program\javaScript\Scratch3.0\scratch-blocks\dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -114,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blocks_vertical/sensors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="486">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks_vertical/vertical_extensions.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/colours.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="235" column="50" selection-start-line="235" selection-start-column="50" selection-end-line="235" selection-end-column="50" />
+            <state relative-caret-position="519">
+              <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -213,6 +209,7 @@
         <option value="$PROJECT_DIR$/msg/js/en.js" />
         <option value="$PROJECT_DIR$/blocks_vertical/sensors.js" />
         <option value="$PROJECT_DIR$/blocks_vertical/default_toolbox.js" />
+        <option value="$PROJECT_DIR$/core/colours.js" />
       </list>
     </option>
   </component>
@@ -284,7 +281,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gh-pages/playgrounds" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gh-pages/playgrounds/core" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -327,12 +324,12 @@
       <workItem from="1564984868002" duration="7165000" />
       <workItem from="1565069625111" duration="529000" />
       <workItem from="1565073263149" duration="4465000" />
-      <workItem from="1565141756731" duration="17043000" />
+      <workItem from="1565141756731" duration="18476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29202000" />
+    <option name="totallyTimeSpent" value="30635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -363,20 +360,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/blocks_vertical/motion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/blocks_vertical/control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_common/colour.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1182" />
@@ -647,23 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks_vertical/vertical_extensions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="235" column="50" selection-start-line="235" selection-start-column="50" selection-end-line="235" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks_vertical/operators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="440" column="8" selection-start-line="440" selection-start-column="8" selection-end-line="459" selection-end-column="10" />
-          <folding>
-            <element signature="e#1102#1268#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/msg/messages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -762,16 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks_vertical/default_toolbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="569" column="21" selection-start-line="569" selection-start-column="21" selection-end-line="569" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#xml#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_vertical/event.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -794,10 +750,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/extensions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks_vertical/vertical_extensions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_vertical/sensors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="486">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks_vertical/default_toolbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="569" column="21" selection-start-line="569" selection-start-column="21" selection-end-line="569" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#xml#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks_vertical/operators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="440" column="8" selection-start-line="440" selection-start-column="8" selection-end-line="459" selection-end-column="10" />
+          <folding>
+            <element signature="e#1102#1268#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/colours.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
         </state>
       </provider>
     </entry>
