@@ -26,12 +26,12 @@ goog.require('Blockly.Blocks');
 goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
-
+/*
 Blockly.Blocks['sound_sounds_menu'] = {
   /**
    * Sound effects drop-down menu.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -68,7 +68,7 @@ Blockly.Blocks['sound_play'] = {
   /**
    * Block to play sound.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_PLAY,
@@ -88,7 +88,7 @@ Blockly.Blocks['sound_playuntildone'] = {
   /**
    * Block to play sound until done.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_PLAYUNTILDONE,
@@ -108,7 +108,7 @@ Blockly.Blocks['sound_stopallsounds'] = {
   /**
    * Block to stop all sounds
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_STOPALLSOUNDS,
@@ -122,7 +122,7 @@ Blockly.Blocks['sound_seteffectto'] = {
   /**
    * Block to set the audio effect
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_SETEFFECTO,
@@ -151,7 +151,7 @@ Blockly.Blocks['sound_changeeffectby'] = {
   /**
    * Block to change the audio effect
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_CHANGEEFFECTBY,
@@ -179,7 +179,7 @@ Blockly.Blocks['sound_cleareffects'] = {
   /**
    * Block to clear audio effects
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_CLEAREFFECTS,
@@ -193,7 +193,7 @@ Blockly.Blocks['sound_changevolumeby'] = {
   /**
    * Block to change the sprite's volume by a certain value
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_CHANGEVOLUMEBY,
@@ -213,7 +213,7 @@ Blockly.Blocks['sound_setvolumeto'] = {
   /**
    * Block to set the sprite's volume to a certain percent
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_SETVOLUMETO,
@@ -233,7 +233,7 @@ Blockly.Blocks['sound_volume'] = {
   /**
    * Block to report volume
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SOUND_VOLUME,
@@ -243,3 +243,4 @@ Blockly.Blocks['sound_volume'] = {
     });
   }
 };
+*/

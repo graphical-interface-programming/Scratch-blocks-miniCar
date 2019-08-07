@@ -29,12 +29,12 @@ goog.provide('Blockly.Blocks.event');
 goog.require('Blockly.Blocks');
 
 goog.require('Blockly.Colours');
-
+/*
 Blockly.Blocks['event_whenflagclicked'] = {
   /**
    * Block for when flag clicked.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "id": "event_whenflagclicked",
@@ -63,7 +63,7 @@ Blockly.Blocks['dropdown_whenbroadcast'] = {
   /**
    * Block for when broadcast dropdown (used for shadow).
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldIconMenu(
@@ -93,7 +93,7 @@ Blockly.Blocks['event_whenbroadcastreceived'] = {
   /**
    * Block for when broadcast received.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "id": "event_whenbroadcastreceived",
@@ -125,7 +125,7 @@ Blockly.Blocks['dropdown_broadcast'] = {
   /**
    * Block for broadcast dropdown (used for shadow).
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldIconMenu(
@@ -155,7 +155,7 @@ Blockly.Blocks['event_broadcast'] = {
   /**
    * Block to send a broadcast.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "id": "event_broadcast",
@@ -183,3 +183,4 @@ Blockly.Blocks['event_broadcast'] = {
     });
   }
 };
+*/

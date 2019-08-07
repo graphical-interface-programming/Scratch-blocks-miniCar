@@ -30,7 +30,7 @@ goog.require('Blockly.Blocks');
 
 Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: none">' +
     '<category name="Events">' +
-        '<block type="event_whenflagclicked"></block>' +
+       /* '<block type="event_whenflagclicked"></block>' +
         '<block type="event_whenbroadcastreceived">' +
         '<value name="CHOICE">' +
         '<shadow type="dropdown_whenbroadcast">' +
@@ -44,7 +44,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '<field name="CHOICE">blue</field>' +
         '</shadow>' +
         '</value>' +
-        '</block>' +
+        '</block>' +*/
     '</category>' +
     '<category name="Control">' +
         '<block type="control_forever"></block>' +
@@ -103,7 +103,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '<block type="wedo_whendistanceclose"></block>' +
         '</category>' +
         '</xml>';
-        
+
 Blockly.Blocks.defaultToolboxSimple = '<xml id="toolbox-simple" style="display: none">' +
         '<block type="event_whenflagclicked"></block>' +
         '<block type="event_whenbroadcastreceived">' +

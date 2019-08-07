@@ -27,12 +27,12 @@ goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-
+/*
 Blockly.Blocks['sensing_touchingobject'] = {
   /**
    * Block to Report if its touching a Object.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_TOUCHINGOBJECT,
@@ -52,7 +52,7 @@ Blockly.Blocks['sensing_touchingobjectmenu'] = {
   /**
    * "Touching [Object]" Block Menu.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -75,7 +75,7 @@ Blockly.Blocks['sensing_touchingcolor'] = {
   /**
    * Block to Report if its touching a certain Color.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_TOUCHINGCOLOR,
@@ -95,7 +95,7 @@ Blockly.Blocks['sensing_coloristouchingcolor'] = {
   /**
    * Block to Report if a color is touching a certain Color.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_COLORISTOUCHINGCOLOR,
@@ -119,7 +119,7 @@ Blockly.Blocks['sensing_distanceto'] = {
   /**
    * Block to Report distance to another Object.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_DISTANCETO,
@@ -139,7 +139,7 @@ Blockly.Blocks['sensing_distancetomenu'] = {
   /**
    * "Distance to [Object]" Block Menu.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -161,7 +161,7 @@ Blockly.Blocks['sensing_askandwait'] = {
   /**
    * Block to ask a question and wait
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_ASKANDWAIT,
@@ -181,7 +181,7 @@ Blockly.Blocks['sensing_answer'] = {
   /**
    * Block to report answer
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_ANSWER,
@@ -196,7 +196,7 @@ Blockly.Blocks['sensing_keypressed'] = {
   /**
    * Block to Report if a key is pressed.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_KEYPRESSED,
@@ -216,7 +216,7 @@ Blockly.Blocks['sensing_keyoptions'] = {
   /**
    * Options for Keys
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -279,7 +279,7 @@ Blockly.Blocks['sensing_mousedown'] = {
   /**
    * Block to Report if the mouse is down.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_MOUSEDOWN,
@@ -293,7 +293,7 @@ Blockly.Blocks['sensing_mousex'] = {
   /**
    * Block to report mouse's x position
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_MOUSEX,
@@ -307,7 +307,7 @@ Blockly.Blocks['sensing_mousey'] = {
   /**
    * Block to report mouse's y position
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_MOUSEY,
@@ -321,7 +321,7 @@ Blockly.Blocks['sensing_setdragmode'] = {
   /**
    * Block to set drag mode.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.SENSING_SETDRAGMODE,
@@ -340,7 +340,7 @@ Blockly.Blocks['sensing_setdragmode'] = {
     });
   }
 };
-
+*/
 Blockly.Blocks['sensing_loudness'] = {
   /**
    * Block to report loudness

@@ -99,12 +99,12 @@ Blockly.Blocks['motion_turnleft'] = {
     });
   }
 };
-
+/*
 Blockly.Blocks['motion_pointindirection'] = {
   /**
    * Block to point in direction.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_POINTINDIRECTION,
@@ -124,7 +124,7 @@ Blockly.Blocks['motion_pointtowards_menu'] = {
   /**
    * Point towards drop-down menu.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -150,7 +150,7 @@ Blockly.Blocks['motion_pointtowards'] = {
   /**
    * Block to point in direction.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_POINTTOWARDS,
@@ -170,7 +170,7 @@ Blockly.Blocks['motion_goto_menu'] = {
   /**
    * Go to drop-down menu.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -196,7 +196,7 @@ Blockly.Blocks['motion_gotoxy'] = {
   /**
    * Block to go to X, Y.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_GOTOXY,
@@ -220,7 +220,7 @@ Blockly.Blocks['motion_goto'] = {
   /**
    * Block to go to a menu item.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_GOTO,
@@ -240,7 +240,7 @@ Blockly.Blocks['motion_glidesecstoxy'] = {
   /**
    * Block to glide for a specified time.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_GLIDESECSTOXY,
@@ -268,7 +268,7 @@ Blockly.Blocks['motion_glideto_menu'] = {
   /**
    * Glide to drop-down menu
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -294,7 +294,7 @@ Blockly.Blocks['motion_glideto'] = {
   /**
    * Block to glide to a menu item
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_GLIDETO,
@@ -318,7 +318,7 @@ Blockly.Blocks['motion_changexby'] = {
   /**
    * Block to change X.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_CHANGEXBY,
@@ -338,7 +338,7 @@ Blockly.Blocks['motion_setx'] = {
   /**
    * Block to set X.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_SETX,
@@ -358,7 +358,7 @@ Blockly.Blocks['motion_changeyby'] = {
   /**
    * Block to change Y.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_CHANGEYBY,
@@ -378,7 +378,7 @@ Blockly.Blocks['motion_sety'] = {
   /**
    * Block to set Y.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_SETY,
@@ -398,7 +398,7 @@ Blockly.Blocks['motion_ifonedgebounce'] = {
   /**
    * Block to bounce on edge.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_IFONEDGEBOUNCE,
@@ -412,7 +412,7 @@ Blockly.Blocks['motion_setrotationstyle'] = {
   /**
    * Block to set rotation style.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_SETROTATIONSTYLE,
@@ -432,7 +432,7 @@ Blockly.Blocks['motion_setrotationstyle'] = {
     });
   }
 };
-
+*/
 Blockly.Blocks['motion_xposition'] = {
   /**
    * Block to report X.
@@ -477,14 +477,14 @@ Blockly.Blocks['motion_direction'] = {
     });
   }
 };
-
+/*
 Blockly.Blocks['motion_scroll_right'] = {
   /**
    * Block to scroll the stage right. Does not actually do anything. This is
    * an obsolete block that is implemented for compatibility with Scratch 2.0
    * projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_SCROLLRIGHT,
@@ -506,7 +506,7 @@ Blockly.Blocks['motion_scroll_up'] = {
    * obsolete block that is implemented for compatibility with Scratch 2.0
    * projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_SCROLLUP,
@@ -528,7 +528,7 @@ Blockly.Blocks['motion_align_scene'] = {
    * anything. This is an obsolete block that is implemented for compatibility
    * with Scratch 2.0 projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_ALIGNSCENE,
@@ -557,7 +557,7 @@ Blockly.Blocks['motion_xscroll'] = {
    * do anything. This is an obsolete block that is implemented for
    * compatibility with Scratch 2.0 projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_XSCROLL,
@@ -573,7 +573,7 @@ Blockly.Blocks['motion_yscroll'] = {
    * do anything. This is an obsolete block that is implemented for
    * compatibility with Scratch 2.0 projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.MOTION_YSCROLL,
@@ -582,3 +582,4 @@ Blockly.Blocks['motion_yscroll'] = {
     });
   }
 };
+*/

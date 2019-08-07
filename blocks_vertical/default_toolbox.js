@@ -51,7 +51,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
-    '<block type="motion_pointindirection" id="motion_pointindirection">' +
+   /* '<block type="motion_pointindirection" id="motion_pointindirection">' +
       '<value name="DIRECTION">' +
         '<shadow type="math_angle">' +
           '<field name="NUM">90</field>' +
@@ -139,12 +139,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
     '<block type="motion_ifonedgebounce" id="motion_ifonedgebounce"></block>' +
-    '<block type="motion_setrotationstyle" id="motion_setrotationstyle"></block>' +
+    '<block type="motion_setrotationstyle" id="motion_setrotationstyle"></block>' +*/
     '<block type="motion_xposition" id="motion_xposition"></block>' +
     '<block type="motion_yposition" id="motion_yposition"></block>' +
     '<block type="motion_direction" id="motion_direction"></block>' +
   '</category>' +
-  '<category name="%{BKY_CATEGORY_LOOKS}" id="looks" colour="#9966FF" secondaryColour="#774DCB">' +
+ /* '<category name="%{BKY_CATEGORY_LOOKS}" id="looks" colour="#9966FF" secondaryColour="#774DCB">' +
     '<block type="looks_show" id="looks_show"></block>' +
     '<block type="looks_hide" id="looks_hide"></block>' +
     '<block type="looks_switchcostumeto" id="looks_switchcostumeto">' +
@@ -204,8 +204,8 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="looks_costumenumbername" id="looks_costumenumbername"></block>' +
     '<block type="looks_backdropnumbername" id="looks_backdropnumbername"></block>' +
     '<block type="looks_size" id="looks_size"></block>' +
-  '</category>' +
-  '<category name="%{BKY_CATEGORY_SOUND}" id="sound" colour="#D65CD6" secondaryColour="#BD42BD">' +
+  '</category>' +*/
+  /*'<category name="%{BKY_CATEGORY_SOUND}" id="sound" colour="#D65CD6" secondaryColour="#BD42BD">' +
     '<block type="sound_play" id="sound_play">' +
       '<value name="SOUND_MENU">' +
         '<shadow type="sound_sounds_menu"></shadow>' +
@@ -247,14 +247,14 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
     '<block type="sound_volume" id="sound_volume"></block>' +
-  '</category>' +
+  '</category>' +*/
   '<category name="%{BKY_CATEGORY_EVENTS}" id="events" colour="#FFD500" secondaryColour="#CC9900">' +
-    '<block type="event_whenflagclicked" id="event_whenflagclicked"></block>' +
+   /* '<block type="event_whenflagclicked" id="event_whenflagclicked"></block>' +
     '<block type="event_whenkeypressed" id="event_whenkeypressed">' +
     '</block>' +
     '<block type="event_whenthisspriteclicked" id="event_whenthisspriteclicked"></block>' +
     '<block type="event_whenbackdropswitchesto" id="event_whenbackdropswitchesto">' +
-    '</block>' +
+    '</block>' +*/
     '<block type="event_whengreaterthan" id="event_whengreaterthan">' +
       '<value name="VALUE">' +
         '<shadow type="math_number">' +
@@ -262,7 +262,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
-    '<block type="event_whenbroadcastreceived" id="event_whenbroadcastreceived">' +
+   /* '<block type="event_whenbroadcastreceived" id="event_whenbroadcastreceived">' +
     '</block>' +
     '<block type="event_broadcast" id="event_broadcast">' +
       '<value name="BROADCAST_INPUT">' +
@@ -273,7 +273,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '<value name="BROADCAST_INPUT">' +
         '<shadow type="event_broadcast_menu"></shadow>' +
       '</value>' +
-    '</block>' +
+    '</block>' +*/
   '</category>' +
   '<category name="%{BKY_CATEGORY_CONTROL}" id="control" colour="#FFAB19" secondaryColour="#CF8B17">' +
     '<block type="control_wait" id="control_wait">' +
@@ -296,16 +296,16 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="control_wait_until" id="control_wait_until"></block>' +
     '<block type="control_repeat_until" id="control_repeat_until"></block>' +
     '<block type="control_stop" id="control_stop"></block>' +
-    '<block type="control_start_as_clone" id="control_start_as_clone"></block>' +
+    /*'<block type="control_start_as_clone" id="control_start_as_clone"></block>' +
     '<block type="control_create_clone_of" id="control_create_clone_of">' +
       '<value name="CLONE_OPTION">' +
         '<shadow type="control_create_clone_of_menu"></shadow>' +
       '</value>' +
     '</block>' +
-    '<block type="control_delete_this_clone" id="control_delete_this_clone"></block>' +
+    '<block type="control_delete_this_clone" id="control_delete_this_clone"></block>' +*/
   '</category>' +
   '<category name="%{BKY_CATEGORY_SENSING}" id="sensing" colour="#4CBFE6" secondaryColour="#2E8EB8">' +
-    '<block type="sensing_touchingobject" id="sensing_touchingobject">' +
+   /* '<block type="sensing_touchingobject" id="sensing_touchingobject">' +
       '<value name="TOUCHINGOBJECTMENU">' +
         '<shadow type="sensing_touchingobjectmenu"></shadow>' +
       '</value>' +
@@ -336,7 +336,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="sensing_mousedown" id="sensing_mousedown"></block>' +
     '<block type="sensing_mousex" id="sensing_mousex"></block>' +
     '<block type="sensing_mousey" id="sensing_mousey"></block>' +
-    '<block type="sensing_setdragmode" id="sensing_setdragmode"></block>' +
+    '<block type="sensing_setdragmode" id="sensing_setdragmode"></block>' +*/
     '<block type="sensing_loudness" id="sensing_loudness"></block>' +
     '<block type="sensing_timer" id="sensing_timer"></block>' +
     '<block type="sensing_resettimer" id="sensing_resettimer"></block>' +
@@ -560,5 +560,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>' +
     '</block>' +
+  '</category>' +
+  '<category name="%{BKY_CATEGORY_SENSORS}" id="sensors" colour="#FFFFFF" secondaryColour="#DB6E00">' +
   '</category>' +
   '</xml>';

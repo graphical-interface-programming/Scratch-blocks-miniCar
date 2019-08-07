@@ -378,12 +378,12 @@ Blockly.Blocks['control_for_each'] = {
     });
   }
 };
-
+/*
 Blockly.Blocks['control_start_as_clone'] = {
   /**
    * Block for "when I start as a clone" hat.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "id": "control_start_as_clone",
@@ -400,7 +400,7 @@ Blockly.Blocks['control_create_clone_of_menu'] = {
   /**
    * Create-clone drop-down menu.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": "%1",
@@ -422,7 +422,7 @@ Blockly.Blocks['control_create_clone_of'] = {
   /**
    * Block for "create clone of..."
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "id": "control_start_as_clone",
@@ -443,7 +443,7 @@ Blockly.Blocks['control_delete_this_clone'] = {
   /**
    * Block for "delete this clone."
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.CONTROL_DELETETHISCLONE,
@@ -460,7 +460,7 @@ Blockly.Blocks['control_get_counter'] = {
    * Block to get the counter value. This is an obsolete block that is
    * implemented for compatibility with Scratch 2.0 projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.CONTROL_COUNTER,
@@ -475,7 +475,7 @@ Blockly.Blocks['control_incr_counter'] = {
    * Block to add one to the counter value. This is an obsolete block that is
    * implemented for compatibility with Scratch 2.0 projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.CONTROL_INCRCOUNTER,
@@ -490,7 +490,7 @@ Blockly.Blocks['control_clear_counter'] = {
    * Block to clear the counter value. This is an obsolete block that is
    * implemented for compatibility with Scratch 2.0 projects.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.CONTROL_CLEARCOUNTER,
@@ -513,7 +513,7 @@ Blockly.Blocks['control_all_at_once'] = {
    * Scratch 2.0 spec for this block is "warpSpeed", but the label shows
    * "all at once".
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.CONTROL_ALLATONCE,
@@ -529,3 +529,4 @@ Blockly.Blocks['control_all_at_once'] = {
     });
   }
 };
+*/
