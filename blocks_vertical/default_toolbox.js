@@ -561,6 +561,14 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
       '</value>' +
     '</block>' +
   '</category>' +
-  '<category name="%{BKY_CATEGORY_SENSORS}" id="sensors" colour="#FFFFFF" secondaryColour="#DB6E00">' +
+  // 加入sensors积木块
+  '<category name="%{BKY_CATEGORY_SENSORS}" id="sensors" colour="#000000" secondaryColour="#DB6E00">' +
+    '<block type="sensors_getData" id="sensors_getData">' +
+      '<value name="NUM">' +
+        '<shadow type="math_number">' +
+          '<field name="NUM"></field>' +
+        '</shadow>' +
+      '</value>' +
+    '</block>' +
   '</category>' +
   '</xml>';

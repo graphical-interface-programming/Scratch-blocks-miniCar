@@ -1,5 +1,5 @@
 // This file was automatically generated.  Do not modify.
-
+//积木块的各种语言翻译
 'use strict';
 
 goog.provide('Blockly.ScratchMsgs.allLocales');
@@ -7,6 +7,7 @@ goog.provide('Blockly.ScratchMsgs.allLocales');
 goog.require('Blockly.ScratchMsgs');
 
 
+/*
 Blockly.ScratchMsgs.locales["ab"] =
 {
     "CONTROL_FOREVER": "инагӡалатәуп",
@@ -16308,6 +16309,7 @@ Blockly.ScratchMsgs.locales["uk"] =
     "BROADCAST_MODAL_TITLE": "Нове повідомлення",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "повідомлення1"
 };
+*/
 
 Blockly.ScratchMsgs.locales["zh-cn"] =
 {
@@ -16592,8 +16594,11 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "NEW_BROADCAST_MESSAGE": "新消息",
     "NEW_BROADCAST_MESSAGE_TITLE": "新消息的名称：",
     "BROADCAST_MODAL_TITLE": "新消息",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
+  // 新添加的sensors
+    "SENSORS_GETDATA": "来自 %1 号 %2 传感器的数据"
 };
+/*
 
 Blockly.ScratchMsgs.locales["zh-tw"] =
 {
@@ -16880,4 +16885,6 @@ Blockly.ScratchMsgs.locales["zh-tw"] =
     "BROADCAST_MODAL_TITLE": "新的訊息",
     "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
 };
+*/
+
 // End of combined translations

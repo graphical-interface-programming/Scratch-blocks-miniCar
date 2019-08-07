@@ -287,3 +287,8 @@ Blockly.Msg["NEW_BROADCAST_MESSAGE"] = "New message";
 Blockly.Msg["NEW_BROADCAST_MESSAGE_TITLE"] = "New message name:";
 Blockly.Msg["BROADCAST_MODAL_TITLE"] = "New Message";
 Blockly.Msg["DEFAULT_BROADCAST_MESSAGE_NAME"] = "message1";
+// 新添加的sensors
+Blockly.Msg["SENSORS_GETDATA"] = "data from No. %1 %2";
+Blockly.Msg["SENSORS_GETDATA_CAMERA"] = "Camera";
+Blockly.Msg["SENSORS_GETDATA_INFRARED"] = "Infrared sensor";
+Blockly.Msg["SENSORS_GETDATA_BATTERY"] = "Battery";
