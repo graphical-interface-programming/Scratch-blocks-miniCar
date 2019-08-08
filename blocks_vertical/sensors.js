@@ -31,7 +31,7 @@ Blockly.Blocks['sensors_getData'] = {
         }
         ],
       "category": Blockly.Categories.SENSORS_GETDATA,
-      "extensions": ["colors_sensors","output_number"]
+      "extensions": ["colours_sensors","output_number"]
     })
   }
 };

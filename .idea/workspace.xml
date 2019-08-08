@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31275499-91da-4fa5-ab9f-bc5d40ef3131" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg/json/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/msg/json/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/msg/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msg/scratch_msgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/msg/scratch_msgs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks_vertical/sensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/blocks_vertical/sensors.js" afterDir="false" />
     </list>
     <ignored path="E:\program\javaScript\Scratch3.0\scratch-blocks\dist/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msg/messages.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="290" column="37" lean-forward="true" selection-start-line="290" selection-start-column="37" selection-end-line="290" selection-end-column="37" />
+              <caret line="290" column="28" selection-start-line="290" selection-start-column="28" selection-end-line="290" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msg/scratch_msgs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="16602" column="2" lean-forward="true" selection-start-line="16602" selection-start-column="2" selection-end-line="16602" selection-end-column="2" />
+            <state relative-caret-position="448227">
+              <caret line="16602" column="2" selection-start-line="16602" selection-start-column="2" selection-end-line="16602" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -44,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msg/js/en.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="7749">
               <caret line="287" column="49" selection-start-line="287" selection-start-column="49" selection-end-line="287" selection-end-column="49" />
             </state>
           </provider>
@@ -53,8 +51,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msg/json/en.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="162" column="52" lean-forward="true" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
+            <state relative-caret-position="4374">
+              <caret line="162" column="52" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks_vertical/event.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks_vertical/sensors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/blocks_vertical/sensors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -113,19 +138,20 @@
         <option value="$PROJECT_DIR$/blocks_horizontal/default_toolbox.js" />
         <option value="$PROJECT_DIR$/blocks_vertical/vertical_extensions.js" />
         <option value="$PROJECT_DIR$/msg/js/en.js" />
-        <option value="$PROJECT_DIR$/blocks_vertical/sensors.js" />
         <option value="$PROJECT_DIR$/blocks_vertical/default_toolbox.js" />
         <option value="$PROJECT_DIR$/core/colours.js" />
         <option value="$PROJECT_DIR$/msg/scratch_msgs.js" />
         <option value="$PROJECT_DIR$/msg/messages.js" />
         <option value="$PROJECT_DIR$/msg/json/en.json" />
+        <option value="$PROJECT_DIR$/blocks_vertical/sensors.js" />
+        <option value="$PROJECT_DIR$/gh-pages/playgrounds/blocks_vertical/sensors.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="978" />
+    <option name="width" value="979" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -134,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +183,7 @@
               <item name="scratch-blocks" type="462c0819:PsiDirectoryNode" />
               <item name="gh-pages" type="462c0819:PsiDirectoryNode" />
               <item name="playgrounds" type="462c0819:PsiDirectoryNode" />
-              <item name="msg" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks_vertical" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scratch-blocks" type="b2602c69:ProjectViewProjectNode" />
@@ -181,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,12 +258,13 @@
       <workItem from="1565069625111" duration="529000" />
       <workItem from="1565073263149" duration="4465000" />
       <workItem from="1565141756731" duration="19628000" />
-      <workItem from="1565181748192" duration="1349000" />
+      <workItem from="1565181748192" duration="1920000" />
+      <workItem from="1565227516178" duration="314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33136000" />
+    <option name="totallyTimeSpent" value="34021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -268,13 +295,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blocks_common/matrix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_common/note.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-129">
@@ -523,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks_vertical/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="183" column="22" lean-forward="true" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_vertical/control.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-43">
@@ -543,11 +556,6 @@
             <element signature="e#9844#13949#0" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/core/colours.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blocks_vertical/default_toolbox.js">
@@ -564,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4854">
           <caret line="342" column="2" selection-start-line="342" selection-start-column="2" selection-end-line="342" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks_vertical/sensors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -605,39 +606,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msg/json/en.json">
+    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/msg/messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="162" column="52" lean-forward="true" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/msg/js/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="287" column="49" selection-start-line="287" selection-start-column="49" selection-end-line="287" selection-end-column="49" />
-        </state>
+        <state relative-caret-position="-7446" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msg/scratch_msgs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="16602" column="2" lean-forward="true" selection-start-line="16602" selection-start-column="2" selection-end-line="16602" selection-end-column="2" />
+        <state relative-caret-position="448227">
+          <caret line="16602" column="2" selection-start-line="16602" selection-start-column="2" selection-end-line="16602" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/msg/messages.js">
+    <entry file="file://$PROJECT_DIR$/msg/js/en.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7446" />
+        <state relative-caret-position="7749">
+          <caret line="287" column="49" selection-start-line="287" selection-start-column="49" selection-end-line="287" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/json/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4374">
+          <caret line="162" column="52" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks_vertical/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/core/colours.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2106" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/msg/messages.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="290" column="37" lean-forward="true" selection-start-line="290" selection-start-column="37" selection-end-line="290" selection-end-column="37" />
+          <caret line="290" column="28" selection-start-line="290" selection-start-column="28" selection-end-line="290" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks_vertical/sensors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh-pages/playgrounds/blocks_vertical/sensors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
         </state>
       </provider>
     </entry>
