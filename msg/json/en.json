@@ -160,5 +160,19 @@
     "Blockly.Msg.SENSORS_GETDATA_CAMERA": "Camera",
 
     "Blockly.Msg.SENSORS_GETDATA_INFRARED": "Infrared sensor",
-    "Blockly.Msg.SENSORS_GETDATA_BATTERY": "Battery"
+    "Blockly.Msg.SENSORS_GETDATA_BATTERY": "Battery",
+    "Blockly.Msg.SENSORS_GETDATA_ULTRASONIC": "Ultrasonic",
+    "Blockly.Msg.SENSORS_GETDATA_ENCODER": "Encoder",
+    "Blockly.Msg.SENSORS_GETDATA_PHOTORESISTANCE": "Photoresistance",
+    "Blockly.Msg.SENSORS_GETDATA_TEMPERATURE": "Temperature",
+    "Blockly.Msg.SENSORS_GETDATA_HUMIDITY": "Humidity",
+    "Blockly.Msg.SENSORS_GETDATA_AIRPRESSURE": "Air Pressure",
+    "Blockly.Msg.SENSORS_GETDATA_ANGULARVELOCITY": "Angular Velocity",
+    "Blockly.Msg.SENSORS_GETDATA_ACCELERATION": "Acceleration",
+    "Blockly.Msg.SENSORS_GETDATA_GEOMAGNETISM": "Geomagnetism",
+    "Blockly.Msg.SENSORS_GETDATA_CARBONDIOXIDE": "Carbon Dioxide",
+    "Blockly.Msg.SENSORS_GETDATA_VIBRATION": "Vibration",
+    "Blockly.Msg.SENSORS_GETDATA_INCLINATION": "Inclination",
+    "Blockly.Msg.SENSORS_TRANSTERDATATO": "transfer data %1 to No. %2 %3",
+    "Blockly.Msg.SENSORS_TRANSTERDATATO_WHEEL": "Wheel"
 }

@@ -281,9 +281,23 @@ Blockly.Msg.SENSING_USERID = 'user id';
 
 // Sensors
 Blockly.Msg.SENSORS_GETDATA = 'data from No. %1 %2';
-Blockly.Msg.SENSORS_GETDATA_CAMERA = 'Camera';
-Blockly.Msg.SENSORS_GETDATA_INFRARED = 'Infrared sensor';
-Blockly.Msg.SENSORS_GETDATA_BATTERY = 'Battery';
+Blockly.Msg.SENSORS_GETDATA_CAMERA = 'Camera';                // 摄像头
+Blockly.Msg.SENSORS_GETDATA_INFRARED = 'Infrared sensor';     // 红外传感器
+Blockly.Msg.SENSORS_GETDATA_BATTERY = 'Battery';              // 电池
+Blockly.Msg.SENSORS_GETDATA_ULTRASONIC = 'Ultrasonic';        // 超声波传感器
+Blockly.Msg.SENSORS_GETDATA_ENCODER = 'Encoder';              // 编码器
+Blockly.Msg.SENSORS_GETDATA_PHOTORESISTANCE = 'Photoresistance';// 光敏电阻
+Blockly.Msg.SENSORS_GETDATA_TEMPERATURE = 'Temperature';      // 温度传感器
+Blockly.Msg.SENSORS_GETDATA_HUMIDITY = 'Humidity';            // 湿度传感器
+Blockly.Msg.SENSORS_GETDATA_AIRPRESSURE = 'Air Pressure';      // 气压传感器
+Blockly.Msg.SENSORS_GETDATA_ANGULARVELOCITY = 'Angular Velocity';// 角速度传感器
+Blockly.Msg.SENSORS_GETDATA_ACCELERATION = 'Acceleration';      // 加速度传感器
+Blockly.Msg.SENSORS_GETDATA_GEOMAGNETISM = 'Geomagnetism';      // 地磁传感器
+Blockly.Msg.SENSORS_GETDATA_CARBONDIOXIDE = 'Carbon Dioxide';   // 二氧化碳传感器
+Blockly.Msg.SENSORS_GETDATA_VIBRATION = 'Vibration';            //震动传感器
+Blockly.Msg.SENSORS_GETDATA_INCLINATION = 'Inclination';        //倾斜传感器
+Blockly.Msg.SENSORS_TRANSTERDATATO = 'transfer data %1 to No. %2 %3';
+Blockly.Msg.SENSORS_TRANSTERDATATO_WHEEL = 'Wheel';
 
 // Category labels
 Blockly.Msg.CATEGORY_MOTION = 'Motion';
