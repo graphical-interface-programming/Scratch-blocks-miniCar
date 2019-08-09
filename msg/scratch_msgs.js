@@ -16334,6 +16334,8 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "CONTROL_INCRCOUNTER": "计数器加一",
     "CONTROL_CLEARCOUNTER": "计数器归零",
     "CONTROL_ALLATONCE": "所有脚本",
+    // for loop
+    "CONTROL_FOR_LOOP": "从 %1 开始直到 %2 步长 %3",
     "DATA_SETVARIABLETO": "将 %1 设为 %2",
     "DATA_CHANGEVARIABLEBY": "将 %1 增加 %2",
     "DATA_SHOWVARIABLE": "显示变量 %1",

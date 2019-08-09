@@ -12,6 +12,7 @@
     "CONTROL_REPEATUNTIL": "repeat until %1",
     "CONTROL_WHILE": "while %1",
     "CONTROL_FOREACH": "for each %1 in %2",
+    "CONTROL_FOR_LOOP": "for %1 to %2 in step %3",
 
     "DATA_SETVARIABLETO": "set %1 to %2",
     "DATA_CHANGEVARIABLEBY": "change %1 by %2",

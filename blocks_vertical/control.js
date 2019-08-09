@@ -378,6 +378,54 @@ Blockly.Blocks['control_for_each'] = {
     });
   }
 };
+
+Blockly.Blocks['control_for_loop'] = {
+  /**
+   * Block for for-each. This is an obsolete block that is implemented for
+   * compatibility with Scratch 2.0 projects.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "type": "control_for_loop",
+      "message0": Blockly.Msg.CONTROL_FOR_LOOP,
+      "message1": "%1",
+      "message2": "%1",
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM"
+        },
+        {
+          "type": "input_value",
+          "name": "NUM1"
+        },
+        {
+          "type": "input_value",
+          "name": "NUM2"
+        }
+      ],
+      "args1": [
+        {
+          "type": "input_statement",
+          "name": "SUBSTACK"
+        }
+      ],
+      "arge2":[
+        {
+          "type": "field_image",
+          "src": Blockly.mainWorkspace.options.pathToMedia + "repeat.svg",
+          "width": 24,
+          "height": 24,
+          "alt": "*",
+          "flip_rtl": true
+        }
+      ],
+      "category": Blockly.Categories.control,
+      "extensions": ["colours_control", "shape_statement"]
+    });
+  }
+};
 /*
 Blockly.Blocks['control_start_as_clone'] = {
   /**
