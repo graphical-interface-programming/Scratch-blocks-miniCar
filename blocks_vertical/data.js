@@ -357,6 +357,35 @@ Blockly.Blocks['data_replaceitemoflist'] = {
   }
 };
 
+Blockly.Blocks['data_for_iter'] = {
+  /**
+   * Block to do for iteration
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.DATA_FOR_ITER,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "VALUE1"
+        },
+        {
+          "type": "input_value",
+          "name": "VALUE2"
+        },
+        {
+          "type": "field_variable",
+          "name": "LIST",
+          "variableTypes": [Blockly.LIST_VARIABLE_TYPE]
+        }
+      ],
+      "category": Blockly.Categories.dataLists,
+      "extensions": ["colours_data_lists", "shape_statement"]
+    });
+  }
+};
+
 Blockly.Blocks['data_itemoflist'] = {
   /**
    * Block for reporting item of list.

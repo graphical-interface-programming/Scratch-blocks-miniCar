@@ -46,6 +46,9 @@ Blockly.Msg["DATA_HIDELIST"] = "hide list %1";
 Blockly.Msg["DATA_INDEX_ALL"] = "all";
 Blockly.Msg["DATA_INDEX_LAST"] = "last";
 Blockly.Msg["DATA_INDEX_RANDOM"] = "random";
+// 遍历for循环
+Blockly.Msg["DATA_FOR_ITER"] = "for each key %1 & value %2 in %3";
+
 Blockly.Msg["EVENT_WHENFLAGCLICKED"] = "when %1 clicked";
 Blockly.Msg["EVENT_WHENTHISSPRITECLICKED"] = "when this sprite clicked";
 Blockly.Msg["EVENT_WHENSTAGECLICKED"] = "when stage clicked";

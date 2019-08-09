@@ -391,6 +391,7 @@ Blockly.Blocks['control_for_loop'] = {
       "message0": Blockly.Msg.CONTROL_FOR_LOOP,
       "message1": "%1",
       "message2": "%1",
+      "lastDummyAlign2": "RIGHT",
       "args0": [
         {
           "type": "input_value",

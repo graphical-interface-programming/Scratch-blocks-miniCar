@@ -16354,6 +16354,9 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "DATA_INDEX_ALL": "全部",
     "DATA_INDEX_LAST": "末尾",
     "DATA_INDEX_RANDOM": "随机",
+    // 遍历for循环
+    "DATA_FOR_ITER": "%3 中的每一个键 %1 & 值 %2",
+  
     "EVENT_WHENFLAGCLICKED": "当 %1 被点击",
     "EVENT_WHENTHISSPRITECLICKED": "当角色被点击",
     "EVENT_WHENSTAGECLICKED": "当舞台被点击",

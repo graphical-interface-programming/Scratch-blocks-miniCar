@@ -374,6 +374,25 @@ Blockly.DataCategory.addHideList = function(xmlList, variable) {
   Blockly.DataCategory.addBlock(xmlList, variable, 'data_hidelist', 'LIST');
 };
 
+// 添加for迭代器
+Blockly.DataCategory.addForIter = function(xmlList, variable) {
+  // <block type="data_for_iter">
+  //   <value name="VALUE1">
+  //     <shadow type="text">
+  //       <field name="TEXT"></field>
+  //     </shadow>
+  //   </value>
+  //   <value name="VALUE2">
+  //     <shadow type="text">
+  //       <field name="TEXT"></field>
+  //     </shadow>
+  //   </value>
+  //   <field name="LIST" variabletype="list" id="">variablename</field>
+  // </block>
+  Blockly.DataCategory.addBlock(xmlList, variable, 'data_for_iter',
+    'LIST', ['VALUE1', 'text', 'key'], ['VALUE2', 'text', 'value']);
+};
+
 /**
  * Construct a create variable button and push it to the xmlList.
  * @param {!Array.<!Element>} xmlList Array of XML block elements.
