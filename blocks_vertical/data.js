@@ -365,6 +365,9 @@ Blockly.Blocks['data_for_iter'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.DATA_FOR_ITER,
+      "message1": "%1",
+      "message2": "%1",
+      "lastDummyAlign2": "RIGHT",
       "args0": [
         {
           "type": "input_value",
@@ -378,6 +381,22 @@ Blockly.Blocks['data_for_iter'] = {
           "type": "field_variable",
           "name": "LIST",
           "variableTypes": [Blockly.LIST_VARIABLE_TYPE]
+        }
+      ],
+      "args1": [
+        {
+          "type": "input_statement",
+          "name": "SUBSTACK"
+        }
+      ],
+      "args2":[
+        {
+          "type": "field_image",
+          "src": Blockly.mainWorkspace.options.pathToMedia + "repeat.svg",
+          "width": 24,
+          "height": 24,
+          "alt": "*",
+          "flip_rtl": true
         }
       ],
       "category": Blockly.Categories.dataLists,

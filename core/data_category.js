@@ -378,12 +378,12 @@ Blockly.DataCategory.addHideList = function(xmlList, variable) {
 // 添加for迭代器
 Blockly.DataCategory.addForIter = function(xmlList, variable) {
   // <block type="data_for_iter">
-  //   <value name="VALUE1">
+  //   <value name="ITEM1">
   //     <shadow type="text">
   //       <field name="TEXT"></field>
   //     </shadow>
   //   </value>
-  //   <value name="VALUE2">
+  //   <value name="ITEM2">
   //     <shadow type="text">
   //       <field name="TEXT"></field>
   //     </shadow>
@@ -391,7 +391,7 @@ Blockly.DataCategory.addForIter = function(xmlList, variable) {
   //   <field name="LIST" variabletype="list" id="">variablename</field>
   // </block>
   Blockly.DataCategory.addBlock(xmlList, variable, 'data_for_iter',
-    'LIST', ['VALUE1', 'text', "key"], ['VALUE2', 'text', "value"]);
+    'LIST', ['ITEM1', 'text', Blockly.Msg.DEFAULT_LIST_ITEM], ['ITEM2', 'text', Blockly.Msg.DEFAULT_LIST_ITEM]);
 };
 
 /**
