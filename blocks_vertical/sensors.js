@@ -59,11 +59,11 @@ Blockly.Blocks['sensors_transferData'] = {
       "args0": [
         {
           "type": "input_value",
-          "name": "DATA"
+          "name": "NUM1"
         },
         {
           "type": "input_value",
-          "name": "NUM"
+          "name": "NUM2"
         },
         {
           "type": "field_dropdown",
