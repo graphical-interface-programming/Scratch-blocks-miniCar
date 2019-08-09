@@ -371,11 +371,11 @@ Blockly.Blocks['data_for_iter'] = {
       "args0": [
         {
           "type": "input_value",
-          "name": "VALUE1"
+          "name": "VALUE"
         },
         {
           "type": "input_value",
-          "name": "VALUE2"
+          "name": "ITEM"
         },
         {
           "type": "field_variable",
