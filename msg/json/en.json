@@ -32,7 +32,7 @@
     "DATA_INDEX_ALL": "all",
     "DATA_INDEX_LAST": "last",
     "DATA_INDEX_RANDOM": "random",
-    "DATA_FOR_ITER": "for each key %1 & value %2 in %3",
+    "DATA_FOR_ITER": "for var %4 from %1 to %2 in step %3",
 
     "EVENT_WHENGREATERTHAN": "when %1 > %2",
     "EVENT_WHENGREATERTHAN_TIMER": "timer",

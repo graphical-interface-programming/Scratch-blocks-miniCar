@@ -404,6 +404,10 @@ Blockly.Blocks['control_for_loop'] = {
         {
           "type": "input_value",
           "name": "NUM2"
+        },
+        {
+          "type": "field_variable",
+          "name": "VARIABLE"
         }
       ],
       "args1": [

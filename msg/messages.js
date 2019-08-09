@@ -57,7 +57,7 @@ Blockly.Msg.CONTROL_FOREACH = 'for each %1 in %2';
 // Blockly.Msg.CONTROL_ALLATONCE = 'all at once';
 
 // for loop
-Blockly.Msg.CONTROL_FOR_LOOP = 'for %1 to %2 in step %3';
+Blockly.Msg.CONTROL_FOR_LOOP = 'for var %4 from %1 to %2 in step %3';
 
 // Data blocks
 Blockly.Msg.DATA_SETVARIABLETO = 'set %1 to %2';

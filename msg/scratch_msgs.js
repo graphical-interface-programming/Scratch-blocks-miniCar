@@ -16335,7 +16335,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "CONTROL_CLEARCOUNTER": "计数器归零",
     "CONTROL_ALLATONCE": "所有脚本",
     // for loop
-    "CONTROL_FOR_LOOP": "从 %1 开始直到 %2 步长 %3",
+    "CONTROL_FOR_LOOP": "变量 %4 从 %1 开始直到 %2 步长 %3",
     "DATA_SETVARIABLETO": "将 %1 设为 %2",
     "DATA_CHANGEVARIABLEBY": "将 %1 增加 %2",
     "DATA_SHOWVARIABLE": "显示变量 %1",
@@ -16356,7 +16356,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "DATA_INDEX_RANDOM": "随机",
     // 遍历for循环
     "DATA_FOR_ITER": "%3 中的每一个键 %1 & 值 %2",
-  
+
     "EVENT_WHENFLAGCLICKED": "当 %1 被点击",
     "EVENT_WHENTHISSPRITECLICKED": "当角色被点击",
     "EVENT_WHENSTAGECLICKED": "当舞台被点击",
