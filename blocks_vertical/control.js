@@ -411,7 +411,7 @@ Blockly.Blocks['control_for_loop'] = {
           "name": "SUBSTACK"
         }
       ],
-      "arge2":[
+      "args2":[
         {
           "type": "field_image",
           "src": Blockly.mainWorkspace.options.pathToMedia + "repeat.svg",
