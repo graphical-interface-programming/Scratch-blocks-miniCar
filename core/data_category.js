@@ -87,6 +87,7 @@ Blockly.DataCategory = function(workspace) {
     Blockly.DataCategory.addSep(xmlList);
     Blockly.DataCategory.addShowList(xmlList, firstVariable);
     Blockly.DataCategory.addHideList(xmlList, firstVariable);
+    Blockly.DataCategory.addForIter(xmlList, firstVariable);
   }
 
   return xmlList;
@@ -390,7 +391,7 @@ Blockly.DataCategory.addForIter = function(xmlList, variable) {
   //   <field name="LIST" variabletype="list" id="">variablename</field>
   // </block>
   Blockly.DataCategory.addBlock(xmlList, variable, 'data_for_iter',
-    'LIST', ['VALUE1', 'text', 'key'], ['VALUE2', 'text', 'value']);
+    'LIST', ['VALUE1', 'text', "key"], ['VALUE2', 'text', "value"]);
 };
 
 /**
