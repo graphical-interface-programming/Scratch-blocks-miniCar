@@ -391,7 +391,7 @@ Blockly.DataCategory.addForIter = function(xmlList, variable) {
   //   <field name="LIST" variabletype="list" id="">variablename</field>
   // </block>
   Blockly.DataCategory.addBlock(xmlList, variable, 'data_for_iter',
-    'LIST', ['ITEM1', 'text', Blockly.Msg.DEFAULT_LIST_ITEM], ['ITEM2', 'text', Blockly.Msg.DEFAULT_LIST_ITEM]);
+    'LIST', ['ITEM1', 'text', 'key'], ['ITEM2', 'text', 'value']);
 };
 
 /**
@@ -473,6 +473,12 @@ Blockly.DataCategory.addBlock = function(xmlList, variable, blockType,
 Blockly.DataCategory.createValue = function(valueName, type, value) {
   var fieldName;
   switch (valueName) {
+    case 'ITEM1':
+      fieldName = 'TEXT';
+      break;
+    case 'ITEM2':
+      fieldName = 'TEXT';
+      break;
     case 'ITEM':
       fieldName = 'TEXT';
       break;

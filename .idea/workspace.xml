@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31275499-91da-4fa5-ab9f-bc5d40ef3131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blocks_vertical/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/blocks_vertical/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/data_category.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/data_category.js" afterDir="false" />
     </list>
     <ignored path="E:\program\javaScript\Scratch3.0\scratch-blocks\dist/" />
@@ -57,20 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blocks_vertical/data.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="395" column="22" lean-forward="true" selection-start-line="395" selection-start-column="22" selection-end-line="395" selection-end-column="22" />
+              <caret line="395" column="22" selection-start-line="395" selection-start-column="22" selection-end-line="395" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/data_category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="385" column="25" selection-start-line="385" selection-start-column="25" selection-end-line="385" selection-end-column="25" />
+            <state relative-caret-position="347">
+              <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
             </state>
           </provider>
         </entry>
@@ -136,6 +135,8 @@
       <find>东西</find>
       <find>replaceitemoflist</find>
       <find>data_</find>
+      <find>ITEM</find>
+      <find>list_item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -283,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45366000" />
+    <option name="totallyTimeSpent" value="47455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -648,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msg/js/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="287" selection-start-line="287" selection-end-line="287" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_vertical/control.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -666,17 +660,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/data_category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="385" column="25" selection-start-line="385" selection-start-column="25" selection-end-line="385" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks_vertical/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="395" column="22" lean-forward="true" selection-start-line="395" selection-start-column="22" selection-end-line="395" selection-end-column="22" />
+          <caret line="395" column="22" selection-start-line="395" selection-start-column="22" selection-end-line="395" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/msg/js/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/data_category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="395" lean-forward="true" selection-start-line="395" selection-end-line="395" />
         </state>
       </provider>
     </entry>
