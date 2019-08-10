@@ -70,7 +70,10 @@ Blockly.Blocks['sensors_transferData'] = {
           "name": "SENSORTYPE",
           "options": [
             [Blockly.Msg.SENSORS_TRANSTERDATATO_WHEEL, 'Wheel'],
-          ]
+            [Blockly.Msg.SENSORS_TRANSTERDATATO_LED, 'led'],
+            [Blockly.Msg.SENSORS_TRANSTERDATATO_DIGI, 'digi'],
+            [Blockly.Msg.SENSORS_TRANSTERDATATO_DIGI_ZXM, 'zxm digi']
+  ]
         }
       ],
       "category": Blockly.Categories.SENSORS_GETDATA,

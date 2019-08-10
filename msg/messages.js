@@ -303,6 +303,9 @@ Blockly.Msg.SENSORS_GETDATA_VIBRATION = 'Vibration';            //震动传感�
 Blockly.Msg.SENSORS_GETDATA_INCLINATION = 'Inclination';        //倾斜传感器
 Blockly.Msg.SENSORS_TRANSTERDATATO = 'transfer data %1 to No. %2 %3';
 Blockly.Msg.SENSORS_TRANSTERDATATO_WHEEL = 'Wheel';
+Blockly.Msg.SENSORS_TRANSTERDATATO_LED = 'led';
+Blockly.Msg.SENSORS_TRANSTERDATATO_DIGI = 'digi';
+Blockly.Msg.SENSORS_TRANSTERDATATO_DIGI_ZXM = 'zxm digi';
 
 // Category labels
 Blockly.Msg.CATEGORY_MOTION = 'Motion';
