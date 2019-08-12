@@ -23,6 +23,7 @@ The "getting started" guide including [FAQ](https://scratch.mit.edu/developers#f
 We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a [donation](https://secure.donationpay.org/scratchfoundation/) to support our continued engineering, design, community, and resource development efforts. Donations of any size are appreciated. Thank you!
 
 # 开发说明
+###### edit by LASTiMP
 ## 关于安装和使用
 ### 安装
 1. 安装scratch-gui
@@ -47,4 +48,4 @@ We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep i
 * 添加/删除data类积木块时，要同时更新core/data_category.js文件
 * 新建积木块种类时，需要在core/colors.js文件中添加对应的颜色
 * 查看/修改垂直积木块形状类型，请查看blocks_vertical\vertical_extensions.js文件
-###### edit by LASTiMP
+
