@@ -1,5 +1,7 @@
 'use strict';
-
+/**
+ *
+ */
 goog.provide('Blockly.Blocks.sensors');
 
 goog.require('Blockly.Blocks');
