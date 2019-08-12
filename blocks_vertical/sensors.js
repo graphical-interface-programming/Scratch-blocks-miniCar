@@ -1,6 +1,6 @@
 'use strict';
 /**
- *
+ * @author LASTiMP
  */
 goog.provide('Blockly.Blocks.sensors');
 
