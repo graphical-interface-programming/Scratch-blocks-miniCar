@@ -34,8 +34,7 @@
     "DATA_INDEX_RANDOM": "random",
     "DATA_FOR_ITER": "for var %4 from %1 to %2 in step %3",
 
-    "EVENT_WHENGREATERTHAN": "when %1 > %2",
-    "EVENT_WHENGREATERTHAN_TIMER": "timer",
+    "EVENT_INITIAL": "initialize",
 
     "MOTION_MOVESTEPS": "move %1 steps",
     "MOTION_TURNLEFT": "turn %1 %2 degrees",

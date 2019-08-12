@@ -67,6 +67,9 @@ Blockly.Msg["EVENT_WHENKEYPRESSED_RIGHT"] = "right arrow";
 Blockly.Msg["EVENT_WHENKEYPRESSED_DOWN"] = "down arrow";
 Blockly.Msg["EVENT_WHENKEYPRESSED_UP"] = "up arrow";
 Blockly.Msg["EVENT_WHENKEYPRESSED_ANY"] = "any";
+// 初始化抬头
+Blockly.Msg["EVENT_INITIAL"] = "initialize";
+
 Blockly.Msg["LOOKS_SAYFORSECS"] = "say %1 for %2 seconds";
 Blockly.Msg["LOOKS_SAY"] = "say %1";
 Blockly.Msg["LOOKS_HELLO"] = "Hello!";

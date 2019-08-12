@@ -16375,6 +16375,7 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "EVENT_WHENKEYPRESSED_DOWN": "↓",
     "EVENT_WHENKEYPRESSED_UP": "↑",
     "EVENT_WHENKEYPRESSED_ANY": "任意",
+    "EVENT_INITIAL": "变量初始化",
     "LOOKS_SAYFORSECS": "说 %1 %2 秒",
     "LOOKS_SAY": "说 %1",
     "LOOKS_HELLO": "你好！",

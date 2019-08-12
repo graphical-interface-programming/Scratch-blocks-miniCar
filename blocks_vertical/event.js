@@ -26,6 +26,21 @@ goog.require('Blockly.Blocks');
 goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
+
+Blockly.Blocks['event_initial'] = {
+/**
+ * Block for when a sprite is touching an object.
+ * @this Blockly.Block
+ */
+ init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.EVENT_INITIAL,
+      "category": Blockly.Categories.event,
+      "extensions": ["colours_event", "shape_hat"]
+    });
+  }
+ };
+
 /*
 Blockly.Blocks['event_whentouchingobject'] = {
   /**
@@ -168,12 +183,12 @@ Blockly.Blocks['event_whenbackdropswitchesto'] = {
     });
   }
 };
-*/
+
 Blockly.Blocks['event_whengreaterthan'] = {
   /**
    * Block for when loudness/timer/video motion is greater than the value.
    * @this Blockly.Block
-   */
+   *
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.EVENT_WHENGREATERTHAN,

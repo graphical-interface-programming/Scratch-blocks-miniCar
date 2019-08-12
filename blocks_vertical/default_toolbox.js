@@ -30,7 +30,7 @@ goog.require('Blockly.Blocks');
 
 Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: none">' +
   '<category name="%{BKY_CATEGORY_MOTION}" id="motion" colour="#4C97FF" secondaryColour="#3373CC">' +
-    '<block type="motion_movesteps" id="motion_movesteps">' +
+/*    '<block type="motion_movesteps" id="motion_movesteps">' +
       '<value name="STEPS">' +
         '<shadow type="math_number">' +
           '<field name="NUM">10</field>' +
@@ -50,7 +50,7 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
           '<field name="NUM">15</field>' +
         '</shadow>' +
       '</value>' +
-    '</block>' +
+    '</block>' +*/
    /* '<block type="motion_pointindirection" id="motion_pointindirection">' +
       '<value name="DIRECTION">' +
         '<shadow type="math_angle">' +
@@ -249,19 +249,21 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '<block type="sound_volume" id="sound_volume"></block>' +
   '</category>' +*/
   '<category name="%{BKY_CATEGORY_EVENTS}" id="events" colour="#FFD500" secondaryColour="#CC9900">' +
+    '<block type="event_initial" id="event_initial">' +
+    '</block>' +
    /* '<block type="event_whenflagclicked" id="event_whenflagclicked"></block>' +
     '<block type="event_whenkeypressed" id="event_whenkeypressed">' +
     '</block>' +
     '<block type="event_whenthisspriteclicked" id="event_whenthisspriteclicked"></block>' +
     '<block type="event_whenbackdropswitchesto" id="event_whenbackdropswitchesto">' +
     '</block>' +*/
-    '<block type="event_whengreaterthan" id="event_whengreaterthan">' +
+/*    '<block type="event_whengreaterthan" id="event_whengreaterthan">' +
       '<value name="VALUE">' +
         '<shadow type="math_number">' +
           '<field name="NUM">10</field>' +
         '</shadow>' +
       '</value>' +
-    '</block>' +
+    '</block>' +*/
    /* '<block type="event_whenbroadcastreceived" id="event_whenbroadcastreceived">' +
     '</block>' +
     '<block type="event_broadcast" id="event_broadcast">' +
