@@ -27,8 +27,8 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "ajv-keywords": "^2.1.1",
-    "exports-loader": "0.6.3",
-    "imports-loader": "0.6.5"
+    "exports-loader": "0.6.4",
+    "imports-loader": "4.0.1"
   },
   "devDependencies": {
     "async": "2.6.0",
